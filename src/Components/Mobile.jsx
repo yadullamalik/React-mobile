@@ -1,10 +1,11 @@
 import "./Mobile.css";
+
 export const Mobile = () => {
   const a1 = ["Android", "Blackberry", "iPhone", "Windows Phone"];
   const a2 = ["Samsung", "HTC", "Micromax", "Apple"];
 
   return (
-    <div>
+    <div className="mobile">
       <h1>Mobile Operating System</h1>
       <ul>
         {a1.map((e) => {
